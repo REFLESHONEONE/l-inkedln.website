@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BhuTuka Expanded One", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.src-pht {
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100%;
+  background-image: url("img/dxf91zhqd2z6b0bwg85ktm5s4.svg");
+  float: right;
+  margin-right: -75%;
+  margin-top: 1%;
+  padding: 3px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav li {
+  float: right;
+  padding: 15px;
+  margin-top: -67px;
+}
+nav .spn {
+  padding: 19px;
+  text-align: center;
+}
+nav .spn:hover {
+  background-color: gray;
+  border-radius: 5px;
+  color: white;
+}
+nav .pn-s {
+  border: 2px solid dodgerblue;
+  border-radius: 7px;
+  padding: 11px;
+  color: dodgerblue;
+}
+nav .pn-s:hover {
+  background-color: #a6d1e6;
+  opacity: 0.6;
+}
+nav .flag {
+  border-left: 2px solid grey;
+  padding: 16px;
+  transition: all 1s;
+}
+
+nav a {
+  color: gray;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 100;
+}
+nav a:hover {
+  color: black;
+  transition: all;
+}
+nav .fa-solid .fa {
+  text-align: center;
+  margin-right: -4px;
+  font-size: 30px;
+}
+nav img {
+  width: 120px;
+  margin-left: 110px;
+}
+.pres {
+  font-size: 58px;
+  margin-left: -715px;
+  padding: 8px;
+  color: saddlebrown;
+  font-weight: 500;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 25px;
+}
+.btnn {
+  position: relative;
+  font-size: 19px;
+  top: 0%;
+  text-align: left center;
+}
+button {
+  display: block;
+  background-color: white;
+  margin-left: -700px;
+  padding: 9px;
+  height: 60px;
+  border: 1px solid black;
+  width: 500px;
+  margin-top: 9px;
+  text-transform: capitalize;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 3px 3px 3px black;
+}
+button i {
+  padding: 15px;
+  float: right;
+}
+/* two section */
+
+.centerplus {
+  background-color: #f0ebe3;
+  height: 600px;
+  position: relative;
+  top: 800px;
+}
+.prestwo {
+  color: black;
+  font-size: 45px;
+  font-family: "Courier New", Courier, monospace;
+  float: left;
+  padding: 45px;
+}
+.p-center {
+  display: inline;
+  float: right;
+  position: relative;
+  top: -165px;
+  right: -160px;
+  font-weight: 700;
+}
+.centerplus ul {
+  list-style-type: none;
+  position: relative;
+  top: -95px;
+  right: -900px;
+  font-weight: 700;
+}
+.centerplus li {
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid grey;
+  border-radius: 22px;
+  padding: 18px;
+  position: relative;
+  top: -20px;
+  right: 33px;
+  margin: 5px 0;
+}
+.centerplus a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.centerplus li:hover {
+  background-color: grey;
+  opacity: 0.6;
+  transition: all 1s;
+}
+/* section thwo */
+.clearfix {
+  content: "";
+
+  clear: both;
+  display: block;
+}
+.centerthree {
+  background-color: #e4dccf;
+  height: 500px;
+  position: relative;
+  top: 600px;
+}
+.centerthree .three-one {
+  position: relative;
+  top: 155px;
+  right: -55px;
+  font-size: 44px;
+  font-family: "Courier New", Courier, monospace;
+  color: tomato;
+}
+.centerthree .allcenter {
+  position: relative;
+  top: 60px;
+  right: -48%;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: dodgerblue;
+  border: 3px solid dodgerblue;
+  border-radius: 22px;
+  padding: 24px;
+}
+.centerthree .allcenter:hover {
+  background-color: #c1efff;
+  transition: all 3s;
+  color: black;
+  opacity: 0.3;
+}
+.centerclark {
+  background-color: #eeebe5;
+  height: 900px;
+  position: relative;
+  top: 600px;
+}
+.centerclark .clark {
+  position: relative;
+  top: 155px;
+  right: -55px;
+  font-size: 44px;
+  font-family: "Courier New", Courier, monospace;
+  color: saddlebrown;
+}
+.centerclark .clarth {
+  position: relative;
+  top: 155px;
+  right: -55px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
+.centerclark img {
+  float: right;
+  height: 400px;
+  position: relative;
+  right: 400px;
+  top: -155px;
+}
+.centerclark a {
+  float: right;
+  position: relative;
+  right: 400px;
+  color: white;
+  background-color: dodgerblue;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 25px;
+  text-transform: capitalize;
+  text-align: center;
+  top: 455px;
+}
+.centerclark a:hover {
+  background-color: white;
+  transition: all 2s;
+  color: dodgerblue;
+}
+/* bottom center */
+
+.bottomall {
+  background-color: #fff;
+  height: 900px;
+  position: relative;
+  top: 600px;
+}
+.bottomall img {
+  float: left;
+  position: relative;
+  left: 400px;
+  top: 180px;
+}
+.btall img {
+  float: right;
+  position: relative;
+  right: 400px;
+
+  top: -50px;
+}
+.bottomall .bot {
+  position: relative;
+  top: 600px;
+  left: -195px;
+  padding: 17px;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bottomall .arrs {
+  border: 2px solid black;
+  position: relative;
+  top: 600px;
+  text-align: center;
+  border-radius: 55px;
+  text-decoration: none;
+  left: -49px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 23px;
+}
+
+.btall .btallrig {
+  position: relative;
+  left: 1300px;
+  top: 350px;
+  padding: 25px;
+  border-radius: 7px;
+  font-size: 23px;
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  width: 300px;
+}
+.btall .btallrig:hover {
+  background-color: grey;
+  opacity: 0.3;
+  transition: all;
+}
+.btall .ri-tt {
+  position: relative;
+  top: 350px;
+  padding: 5px;
+  left: 655px;
+  padding: 17px;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+/* footer section */
+.footers {
+  background-color: #c1efff;
+  height: 600px;
+  position: relative;
+  top: 1600px;
+}
+.footers .titlepre {
+  position: relative;
+  right: -30%;
+  padding: 29px;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.footers .brs {
+  background-color: dodgerblue;
+  border-radius: 25px;
+  width: 150px;
+  font-size: 21px;
+  color: white;
+  position: relative;
+  right: -42%;
+  border: none;
+}
+.footers .brs:hover {
+  background-color: darkblue;
+  transition: all 2s;
+}
+.footers img {
+  right: -35%;
+  position: relative;
+  border-radius: 15px;
+}
+.footers img:hover {
+  opacity: 0.4;
+  transition: all 3s;
+}
