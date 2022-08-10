@@ -1,2 +1,2 @@
-# l-inkedln.website
-l,inkedln.website
+# linkedln.website
+linkedln.website
